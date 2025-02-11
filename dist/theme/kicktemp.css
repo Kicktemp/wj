@@ -43,19 +43,19 @@ section.shadow, section.shadow h1, section.shadow h2, section.shadow h3, section
 }
 
 body.joomlared {
-  background-color: #f6303e;
+  background: #f6303e;
 }
 
 body.joomlablue {
-  background-color: #318dde;
+  background: #318dde;
 }
 
 body.joomlayellow {
-  background-color: #f6b332;
+  background: #f6b332;
 }
 
 body.joomlagreen {
-  background-color: #76bd1d;
+  background: #76bd1d;
 }
 
 html.animationgif .reveal .slide-background {
@@ -155,7 +155,7 @@ body.hidekick svg.kicktemp {
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #009fe3;
+  --r-background-color: linear-gradient(40deg, #4501b3 0, #345da9 45%, #2690ca 70%, #15dbf5 100%);
   --r-main-font: Source Sans Pro, Helvetica, sans-serif;
   --r-main-font-size: 42px;
   --r-main-color: #fff;
@@ -165,7 +165,7 @@ body.hidekick svg.kicktemp {
   --r-heading-color: #fff;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
-  --r-heading-text-transform: uppercase;
+  --r-heading-text-transform: none;
   --r-heading-text-shadow: 0px 2px 3px #555;
   --r-heading-font-weight: 400;
   --r-heading1-text-shadow: none;
@@ -184,7 +184,7 @@ body.hidekick svg.kicktemp {
 }
 
 .reveal-viewport {
-  background: #009fe3;
+  background: linear-gradient(40deg, #4501b3 0, #345da9 45%, #2690ca 70%, #15dbf5 100%);
   background-color: var(--r-background-color);
 }
 

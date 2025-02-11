@@ -26,7 +26,18 @@
 // Override theme settings (see ../template/settings.scss)
 $defaultbg: #fff;
 $kicktemp: #009fe3;
-
+$kicktemp: radial-gradient(circle at 56.14% 12.23%,#232b69,transparent 85%),
+radial-gradient(circle at 6.01% 1.34%, #4501b3,transparent 25%),
+radial-gradient(circle at 75.71% 4.03%,#0a0d66,transparent 34%),
+radial-gradient(circle at 99.31% 70.7%,#009fe3,transparent 75%),
+radial-gradient(circle at 76.91% 59.14%,#0a0d66,transparent 71%),
+radial-gradient(circle at 71.07% 83.33%,#0a0d66,transparent 71%),
+radial-gradient(circle at 15.11% 70.43%,#345da9,transparent 64%),
+radial-gradient(circle at 65.49% 37.9%,#345da9,transparent 100%),
+radial-gradient(circle at 99.4% 93.55%,#009fe3,transparent 100%),
+radial-gradient(circle at 50% 50%, #564393,#564393 100%);
+$kicktemp: radial-gradient(circle at 60.52% 67.2%,#264697,transparent 41%),radial-gradient(circle at 56.14% 12.23%,#232b69,transparent 85%),radial-gradient(circle at 6.01% 1.34%,#d989b9,transparent 25%),radial-gradient(circle at 75.71% 4.03%,#0a0d66,transparent 34%),radial-gradient(circle at 99.31% 70.7%,#2fd2eb,transparent 75%),radial-gradient(circle at 76.91% 59.14%,#0a0d66,transparent 71%),radial-gradient(circle at 71.07% 83.33%,#0a0d66,transparent 71%),radial-gradient(circle at 15.11% 70.43%,#1556a1,transparent 64%),radial-gradient(circle at 65.49% 37.9%,#3058a5,transparent 100%),radial-gradient(circle at 99.4% 93.55%,#12f7ff,transparent 100%),radial-gradient(circle at 50% 50%,#8f62aa,#8f62aa 100%);
+$kicktemp: linear-gradient(40deg, #4501b3 0, #345da9 45%, #2690ca 70%, #15dbf5 100%);
 $joomlayellow: #f6b332;
 $joomlared: #f6303e;
 $joomlablue: #318dde;
@@ -41,7 +52,7 @@ $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'RedRing-Bold', Helvetica, sans-serif;
 $headingTextShadow: 0px 2px 3px #555;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingFontWeight: 400;
 $linkColor: #000;
 $linkColorHover: color.scale( $linkColor, $lightness: 15% );
@@ -65,10 +76,10 @@ section.shadow {
   text-transform: none !important;
 }
 
-body.joomlared {background-color: $joomlared;}
-body.joomlablue {background-color: $joomlablue;}
-body.joomlayellow {background-color: $joomlayellow;}
-body.joomlagreen {background-color: $joomlagreen;}
+body.joomlared {background: $joomlared;}
+body.joomlablue {background: $joomlablue;}
+body.joomlayellow {background: $joomlayellow;}
+body.joomlagreen {background: $joomlagreen;}
 
 html.animationgif .reveal .slide-background
 {
